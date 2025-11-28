@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        *,html{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #main{
+            width: 600px;
+            height: 700px;
+            background-color: antiquewhite;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .first{
+            width: 580px;
+            height: 90px;
+            background-color:powderblue;
+            margin: 10px 10px 10px 10px;
+        }
+        .second{
+            width: 580px;
+            height: 50px;
+            background-color:powderblue;
+            margin: 0px 10px 10px 10px;
+        }
+        .third{
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+        <div id="twobox">
+            <div class="sideleft"></div>
+            <div class="sideright"></div>
+        </div>
+        <div class="last"></div>
+    </div>
+    
+</body>
+</html>
